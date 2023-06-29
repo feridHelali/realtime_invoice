@@ -1,0 +1,8 @@
+POST http://localhost:3000/invoice/add
+Content-Type: application/json
+
+{
+    "invoiceNumber":1,
+    "customer":"Facebook",
+    "total":16000
+}
